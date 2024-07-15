@@ -41,7 +41,7 @@ body {
     color: $body-font-color;
     font-size: $small-font-size;
     font-weight: $font-weight-bold;
-    padding: 8px 16px;
+    // padding: 8px 16px;
     border-radius: 50px;
     letter-spacing: 0.2px;
 }
@@ -139,7 +139,7 @@ b, strong {
     display: inline-block;
     vertical-align: top;
     margin-top: 10px;
-    width: 250px;
+    width: 100%;
     position: relative;
 }
 
@@ -148,6 +148,7 @@ b, strong {
 }
 
 .animated-item {
+	width: 100%;
     font-size: 32px;
     line-height: inherit;
     display: block;
@@ -586,7 +587,7 @@ b, strong {
 	}
 
 	.animated-item {
-		font-size: 28px;
+		font-size: 25px;
 	}
 
 	.navbar-collapse {
@@ -604,7 +605,7 @@ b, strong {
 @media (max-width: 580px) {
 
 	.animated-item {
-		font-size: 24px;
+		font-size: 20px;
 	}
 
 	.custom-btn-group {
