@@ -5,7 +5,69 @@ Tooplate 2115 Marvel
 https://www.tooplate.com/view/2115-marvel
 
 */
+.timeline {
+  list-style: none;
+  padding: 0;
+}
 
+.timeline li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.timeline li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: #007bff; /* Change color as needed */
+  border-radius: 50%;
+}
+
+.timeline .timeline-content {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.timeline h4 {
+  margin-top: 0;
+}
+
+.timeline-date {
+  display: block;
+  font-size: 14px;
+  color: #6c757dbd; /* Adjust color */
+}
+
+
+/*  */
+.description {
+  color:#696969;
+}
+.text{
+  color:#696969;
+
+}
+.name{
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-weight: bold;
+  margin-top: 2rem;
+
+}
+.course{
+  color: #00bfff;
+ font-family: 'Courier New', Courier, monospace;
+}
+.honor{
+  color: gray;
+}
+.profile2{
+  height: 90%;
+  width:98%;
+  }
 .paragraph{
   font-size: 15px;
   text-align: justify;
@@ -21,6 +83,7 @@ body {
 
 .full-screen {
   padding: 1.5rem 0;
+  padding-bottom: 4em;
 }
 
 .small-text {
@@ -46,7 +109,7 @@ a {
   transition: all 0.4s ease;
 }
 a:hover {
-  color: #ffc200 !important;
+  color: #00bfff !important;
 }
 
 .navbar-brand .uil {
@@ -87,8 +150,8 @@ b, strong {
 }
 
 .custom-btn {
-  background: #00bfffee;
-  color: #ffffff;
+  background: #0f1d21ee;
+  color: white;
   font-weight: bold;
   border-radius: 50px;
   padding: 13px 29px;
@@ -223,7 +286,7 @@ b, strong {
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffc200;
+  color: #00bfff;
   font-weight: bold;
 }
 .navbar-light .navbar-nav .nav-link:focus span,
@@ -439,7 +502,7 @@ b, strong {
   height: 48px;
 }
 .contact-form .form-control:hover, .contact-form .form-control:focus {
-  border-color: #ffc200;
+  border-color: #00bfff;
 }
 .contact-form .submit-btn {
   background: #ffc200;
@@ -471,7 +534,7 @@ b, strong {
   margin: 5px 0;
 }
 .social-links .uil:hover {
-  color: #ffc200;
+  color: #00bfff;
 }
 
 @media (min-width: 1270px) {
