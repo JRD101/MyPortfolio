@@ -5,6 +5,17 @@ Tooplate 2115 Marvel
 https://www.tooplate.com/view/2115-marvel
 
 */
+.content{
+  color:#00bfff
+}
+.social-icons a {
+  font-size: 40px; /* Adjust the size as needed */
+  /* You can also add other styles like color, margin, etc. here */
+}
+.title{
+  margin-bottom: 2rem;
+}
+
 .timeline {
   list-style: none;
   padding: 0;
@@ -13,7 +24,7 @@ https://www.tooplate.com/view/2115-marvel
 .timeline li {
   position: relative;
   padding-left: 20px;
-  margin-bottom: 20px;
+
 }
 
 .timeline li::before {
